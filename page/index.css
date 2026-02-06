@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.item {}
+
+.punctuation {}
+
+.constructor {
+    font-weight: bold;
+}
+
+.literal {
+    font-style: italic;
+}
+
+.term {}
