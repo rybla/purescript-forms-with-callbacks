@@ -17,7 +17,6 @@ await fs.rm(dist_dirpath, { recursive: true, force: true });
 await Bun.build({
     entrypoints: page_filepaths,
     outdir: dist_dirpath,
-    minify: true,
+    minify: false,
 })
-
 
