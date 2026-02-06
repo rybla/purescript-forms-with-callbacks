@@ -9,6 +9,6 @@ const page_filepaths =
 
 await Bun.build({
     entrypoints: page_filepaths,
-    outdir: "client",
+    outdir: "dist",
     minify: true,
 })

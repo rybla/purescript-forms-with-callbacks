@@ -6,6 +6,7 @@
   "devDependencies": {
     "@types/bun": "latest",
     "esbuild": "^0.27.2",
+    "http-server": "^14.1.1",
     "purescript": "^0.15.15",
     "spago": "^1.0.3"
   },
